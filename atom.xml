@@ -5,7 +5,7 @@
   <link href="/practice/atom.xml" rel="self"/>
   
   <link href="https://seanzuxiyang.github.io/practice/"/>
-  <updated>2017-07-12T09:19:28.968Z</updated>
+  <updated>2017-07-17T10:12:48.627Z</updated>
   <id>https://seanzuxiyang.github.io/practice/</id>
   
   <author>
@@ -16,11 +16,96 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Test</title>
+    <link href="https://seanzuxiyang.github.io/practice//404.html"/>
+    <id>https://seanzuxiyang.github.io/practice//404.html</id>
+    <published>2017-07-17T10:12:00.000Z</published>
+    <updated>2017-07-17T10:12:48.627Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="test"><a href="#test" class="headerlink" title="test"></a>test</h3>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;test&quot;&gt;&lt;a href=&quot;#test&quot; class=&quot;headerlink&quot; title=&quot;test&quot;&gt;&lt;/a&gt;test&lt;/h3&gt;
+    
+    </summary>
+    
+    
+      <category term="Machine Learning" scheme="https://seanzuxiyang.github.io/practice/tags/Machine-Learning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【Machine Learning】机器学习：简明入门指南</title>
+    <link href="https://seanzuxiyang.github.io/practice//404.html"/>
+    <id>https://seanzuxiyang.github.io/practice//404.html</id>
+    <published>2017-07-17T09:32:00.000Z</published>
+    <updated>2017-07-17T10:21:04.368Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="\practice\images\pasted-0.png" alt="upload successful"></p>
+<h2 id="【Machine-Learning】机器学习：简明入门指南"><a href="#【Machine-Learning】机器学习：简明入门指南" class="headerlink" title="【Machine Learning】机器学习：简明入门指南"></a>【Machine Learning】机器学习：简明入门指南</h2><p>在听到人们谈论机器学习的时候，你是不是对它的涵义只有几个模糊的认识呢？你是不是已经厌倦了在和同事交谈时只能一直点头？让我们改变一下吧！</p>
+<p>本指南的读者对象是所有对机器学习有求知欲但却不知道如何开头的朋友。我猜很多人已经读过了“机器学习” ——维基百科词条，倍感挫折，以为没人能给出一个高层次的解释。本文就是你们想要的东西。</p>
+<p>本文目标在于平易近人，这意味着文中有大量的概括。但是谁在乎这些呢？只要能让读者对于ML更感兴趣，任务也就完成了。</p>
+<p>何为机器学习？</p>
+<p>机器学习这个概念认为，对于待解问题，你无需编写任何专门的程序代码，遗传算法（generic algorithms）能够在数据集上为你得出有趣的答案。对于遗传算法，不用编码，而是将数据输入，它将在数据之上建立起它自己的逻辑。</p>
+<p>举个例子，有一类算法称为分类算法，它可以将数据划分为不同的组别。一个用来识别手写数字的分类算法，不用修改一行代码，就可以用来将电子邮件分为垃圾邮件和普通邮件。算法没变，但是输入的训练数据变了，因此它得出了不同的分类逻辑。</p>
+<p><img src="\practice\images\pasted-1.png" alt="upload successful"></p>
+<p>机器学习算法是个黑盒，可以重用来解决很多不同的分类问题。</p>
+<p>“机器学习”是一个涵盖性术语，覆盖了大量类似的遗传算法。</p>
+<p>两类机器学习算法</p>
+<p>你可以认为机器学习算法分为两大类：监督式学习（Supervised Learning）和非监督式学习（Unsupervised Learning）。两者区别很简单，但却非常重要。</p>
+<p>监督式学习</p>
+<p>假设你是一名房产经纪，生意越做越大，因此你雇了一批实习生来帮你。但是问题来了——你可以看一眼房子就知道它到底值多少钱，实习生没有经验，不知道如何估价。</p>
+<p>为了帮助你的实习生（也许是为了解放你自己去度个假），你决定写个小软件，可以根据房屋大小、地段以及类似房屋的成交价等因素来评估你所在地区房屋的价值。</p>
+<p>你把3个月来城里每笔房屋交易都写了下来，每一单你都记录了一长串的细节——卧室数量、房屋大小、地段等等。但最重要的是，你写下了最终的成交价：</p>
+<p>这是我们的“训练数据”:</p>
+<p><img src="\practice\images\pasted-2.png" alt="upload successful"></p>
+<p>我们要利用这些训练数据来编写一个程序来估算该地区其他房屋的价值：<br><img src="\practice\images\pasted-3.png" alt="upload successful"></p>
+<p>这就称为监督式学习。你已经知道每一栋房屋的售价，换句话说，你知道问题的答案，并可以反向找出解题的逻辑。</p>
+<p>为了编写软件，你将包含每一套房产的训练数据输入你的机器学习算法。算法尝试找出应该使用何种运算来得出价格数字。</p>
+<p>这就像是算术练习题，算式中的运算符号都被擦去了：</p>
+<p><img src="\practice\images\pasted-4.png" alt="upload successful"></p>
+<p>天哪！一个阴险的学生将老师答案上的算术符号全擦去了。</p>
+<p>看了这些题，你能明白这些测验里面是什么样的数学问题吗？你知道，你应该对算式左边的数字“做些什么”以得出算式右边的答案。</p>
+<p>在监督式学习中，你是让计算机为你算出数字间的关系。而一旦你知道了解决这类特定问题所需要的数学方法后，你就可以解答同类的其它问题了。</p>
+<p>非监督式学习</p>
+<p>让我们回到开头那个房地产经纪的例子。要是你不知道每栋房子的售价怎么办？即使你所知道的只是房屋的大小、位置等信息，你也可以搞出很酷的花样。这就是所谓的非监督式学习。</p>
+<p><img src="\practice\images\pasted-5.png" alt="upload successful"></p>
+<p>即使你不是想去预测未知的数据（如价格），你也可以运用机器学习完成一些有意思的事。</p>
+<p>这就有点像有人给你一张纸，上面列出了很多数字，然后对你说:“我不知道这些数字有什么意义，也许你能从中找出规律或是能将它们分类，或是其它什么-祝你好运！”</p>
+<p>你该怎么处理这些数据呢？首先，你可以用个算法自动地从数据中划分出不同的细分市场。也许你会发现大学附近的买房者喜欢户型小但卧室多的房子，而郊区的买房者偏好三卧室的大户型。这些信息可以直接帮助你的营销。</p>
+<p>你还可以作件很酷的事，自动找出房价的离群数据，即与其它数据迥异的值。这些鹤立鸡群的房产也许是高楼大厦，而你可以将最优秀的推销员集中在这些地区，因为他们的佣金更高。</p>
+<p>本文余下部分我们主要讨论监督式学习，但这并不是因为非监督式学习用处不大或是索然无味。实际上，随着算法改良，不用将数据和正确答案联系在一起，因此非监督式学习正变得越来越重要。</p>
+<p>老学究请看:还有很多其它种类的机器学习算法。但初学时这样理解不错了。</p>
+<p>太酷了，但是评估房价真能被看作“学习”吗？</p>
+<p>作为人类的一员，你的大脑可以应付绝大多数情况，并且没有任何明确指令也能够学习如何处理这些情况。如果你做房产经纪时间很长，你对于房产的合适定价、它的最佳营销方式以及哪些客户会感兴趣等等都会有一种本能般的“感觉”。强人工智能（Strong AI）研究的目标就是要能够用计算机复制这种能力。</p>
+<p>但是目前的机器学习算法还没有那么好——它们只能专注于非常特定的、有限的问题。也许在这种情况下，“学习”更贴切的定义是“在少量范例数据的基础上找出一个等式来解决特定的问题”。</p>
+<p>不幸的是，“机器在少量范例数据的基础上找出一个等式来解决特定的问题”这个名字太烂了。所以最后我们用“机器学习”取而代之。</p>
+<p>当然，要是你是在50年之后来读这篇文章，那时我们已经得出了强人工智能算法，而本文看起来就像个老古董。未来的人类，你还是别读了，叫你的机器仆人给你做份三明治吧。</p>
+<p>让我们写代码吧!</p>
+<p>前面例子中评估房价的程序，你打算怎么写呢？往下看之前，先思考一下吧。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;\practice\images\pasted-0.png&quot; alt=&quot;upload successful&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;【Machine-Learning】机器学习：简明入门指南&quot;&gt;&lt;a href=&quot;#【Machine-Learning】
+    
+    </summary>
+    
+      <category term="Machine Learning" scheme="https://seanzuxiyang.github.io/practice/categories/Machine-Learning/"/>
+    
+    
+      <category term="Machine Learning" scheme="https://seanzuxiyang.github.io/practice/tags/Machine-Learning/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
     <link href="https://seanzuxiyang.github.io/practice//404.html"/>
     <id>https://seanzuxiyang.github.io/practice//404.html</id>
-    <published>2017-07-12T09:19:28.968Z</published>
-    <updated>2017-07-12T09:19:28.968Z</updated>
+    <published>2017-07-12T09:19:00.000Z</published>
+    <updated>2017-07-17T09:54:08.007Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
