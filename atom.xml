@@ -5,7 +5,7 @@
   <link href="/practice/atom.xml" rel="self"/>
   
   <link href="https://seanzuxiyang.github.io/practice/"/>
-  <updated>2017-07-17T10:12:48.627Z</updated>
+  <updated>2017-07-18T16:34:47.872Z</updated>
   <id>https://seanzuxiyang.github.io/practice/</id>
   
   <author>
@@ -16,31 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Test</title>
-    <link href="https://seanzuxiyang.github.io/practice//404.html"/>
-    <id>https://seanzuxiyang.github.io/practice//404.html</id>
-    <published>2017-07-17T10:12:00.000Z</published>
-    <updated>2017-07-17T10:12:48.627Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="test"><a href="#test" class="headerlink" title="test"></a>test</h3>]]></content>
-    
-    <summary type="html">
-    
-      &lt;h3 id=&quot;test&quot;&gt;&lt;a href=&quot;#test&quot; class=&quot;headerlink&quot; title=&quot;test&quot;&gt;&lt;/a&gt;test&lt;/h3&gt;
-    
-    </summary>
-    
-    
-      <category term="Machine Learning" scheme="https://seanzuxiyang.github.io/practice/tags/Machine-Learning/"/>
-    
-  </entry>
-  
-  <entry>
     <title>【Machine Learning】机器学习：简明入门指南</title>
-    <link href="https://seanzuxiyang.github.io/practice//404.html"/>
-    <id>https://seanzuxiyang.github.io/practice//404.html</id>
+    <link href="https://seanzuxiyang.github.io/practice/Machine-Learning/Machine-Learning.html"/>
+    <id>https://seanzuxiyang.github.io/practice/Machine-Learning/Machine-Learning.html</id>
     <published>2017-07-17T09:32:00.000Z</published>
-    <updated>2017-07-17T10:21:04.368Z</updated>
+    <updated>2017-07-18T16:34:47.872Z</updated>
     
     <content type="html"><![CDATA[<p><img src="\practice\images\pasted-0.png" alt="upload successful"></p>
 <h2 id="【Machine-Learning】机器学习：简明入门指南"><a href="#【Machine-Learning】机器学习：简明入门指南" class="headerlink" title="【Machine Learning】机器学习：简明入门指南"></a>【Machine Learning】机器学习：简明入门指南</h2><p>在听到人们谈论机器学习的时候，你是不是对它的涵义只有几个模糊的认识呢？你是不是已经厌倦了在和同事交谈时只能一直点头？让我们改变一下吧！</p>
@@ -102,10 +82,10 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://seanzuxiyang.github.io/practice//404.html"/>
-    <id>https://seanzuxiyang.github.io/practice//404.html</id>
+    <link href="https://seanzuxiyang.github.io/practice/uncategorized/hello-world.html"/>
+    <id>https://seanzuxiyang.github.io/practice/uncategorized/hello-world.html</id>
     <published>2017-07-12T09:19:00.000Z</published>
-    <updated>2017-07-17T09:54:08.007Z</updated>
+    <updated>2017-07-18T15:05:36.652Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
