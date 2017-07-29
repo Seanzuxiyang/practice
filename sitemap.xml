@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://seanzuxiyang.github.io/practice/categories/index.html</loc>
+    
+    <lastmod>2017-07-18T17:10:26.597Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://seanzuxiyang.github.io/practice/Machine-Learning/Machine-Learning.html</loc>
     
     <lastmod>2017-07-18T16:34:47.872Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://seanzuxiyang.github.io/practice/uncategorized/hello-world.html</loc>
     
     <lastmod>2017-07-18T15:05:36.652Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://seanzuxiyang.github.io/practice/categories/index.html</loc>
-    
-    <lastmod>2017-07-18T13:01:58.473Z</lastmod>
     
   </url>
   
