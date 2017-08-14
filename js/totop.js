@@ -1,27 +1,36 @@
-(function($) {
-	// When to show the scroll link
-	// higher number = scroll link appears further down the page：显示返回顶部的位置
-	var upperLimit = 1000;
+$(window).scroll(function() {
+    $(window).scrollTop() > $(window).height()*0.5 ? $("#rocket").addClass("show") : $("#rocket").removeClass("show");
+});
 
-	// Our scroll link element
-	var scrollElem = $('#totop');
+$("#rocket").click(function() {
+    $("#rocket").addClass("launch");
+    $("html, body").animate({
+        scrollTop: 0
+    }, 1000, function() {
+        $("#rocket").removeClass("show launch");
+    });
+    return false;
+});
 
-	// Scroll to top speed：回滚速度
-	var scrollSpeed = 500;
+$("#homelogo").click(function() {
+    $("html, body").animate({
+        scrollTop: $(window).height()
+    }, 1000, null);
+    return false;
+});
 
-	// Show and hide the scroll to top link based on scroll position
-	scrollElem.hide();
-	$(window).scroll(function () {
-		var scrollTop = $(document).scrollTop();
-		if ( scrollTop > upperLimit ) {
-			$(scrollElem).stop().fadeTo(300, 1); // fade back in
-		}else{
-			$(scrollElem).stop().fadeTo(300, 0); // fade out
-		}
-	});
+var articleW = $('#main>article').css("width");
 
-	// Scroll to top animation on click
-	$(scrollElem).click(function(){
-		$('html, body').animate({scrollTop:0}, scrollSpeed); return false;
-	});
-})(jQuery);
+$("#menu-switch").click(function() {
+    if($("#toc-sidebar").hasClass("toc-hide")){
+        setTimeout(function () {
+            $("#toc-sidebar").removeClass("toc-hide");
+        }, 200);
+        $('#main>article').css("width", articleW);
+    }else{
+        $("#toc-sidebar").addClass("toc-hide");
+        setTimeout(function () {
+            $('#main>article').css("width", "100%");
+        }, 200);
+    }
+});
