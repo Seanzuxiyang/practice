@@ -5,7 +5,7 @@
   <link href="/practice/atom.xml" rel="self"/>
   
   <link href="https://seanzuxiyang.github.io/practice/"/>
-  <updated>2017-08-08T06:45:39.811Z</updated>
+  <updated>2017-08-14T08:39:12.792Z</updated>
   <id>https://seanzuxiyang.github.io/practice/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://seanzuxiyang.github.io/practice/Machine-Learning/Machine-Learning.html"/>
     <id>https://seanzuxiyang.github.io/practice/Machine-Learning/Machine-Learning.html</id>
     <published>2017-07-17T09:32:00.000Z</published>
-    <updated>2017-08-08T06:45:39.811Z</updated>
+    <updated>2017-08-14T08:39:12.792Z</updated>
     
     <content type="html"><![CDATA[<p><img src="\practice\images\pasted-0.png" alt="Generic"></p>
 <blockquote>
@@ -47,7 +47,7 @@
 <p>这就像是算术练习题，算式中的运算符号都被擦去了：<br><img src="\practice\images\pasted-4.png" alt=""></p>
 <p><em>天哪！一个阴险的学生将老师答案上的算术符号全擦去了。</em></p>
 <p>看了这些题，你能明白这些测验里面是什么样的数学问题吗？你知道，你应该对算式左边的数字“做些什么”以得出算式右边的答案。</p>
-<p>在监督式学习中，你是让计算机为你算出数字间的关系。而一旦你知道了解决这类特定问题所需要的数学方法后，你就可以解答同类的其它问题了。</p>
+<p>在监督式学习中，你是让计算机为你算出数字间的关系。而一旦你知道了解决这类特定问题所需要的数学方法后，你就可以解答同类的其它问题了。<br><a id="more"></a></p>
 <h3 id="非监督式学习"><a href="#非监督式学习" class="headerlink" title="非监督式学习"></a>非监督式学习</h3><p>让我们回到开头那个房地产经纪的例子。要是你不知道每栋房子的售价怎么办？即使你所知道的只是房屋的大小、位置等信息，你也可以搞出很酷的花样。这就是所谓的非监督式学习。<br><img src="\practice\images\pasted-5.png" alt=""></p>
 <center><font face="微软雅黑" size="2">即使你不是想去预测未知的数据（如价格），你也可以运用机器学习完成一些有意思的事。</font></center>
 
@@ -123,7 +123,30 @@
     
       &lt;p&gt;&lt;img src=&quot;\practice\images\pasted-0.png&quot; alt=&quot;Generic&quot;&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;本文是一篇转载&lt;a href=&quot;http://blog.jobbole.com/67616/&quot; target=&quot;_blan
+&lt;p&gt;本文是一篇转载&lt;a href=&quot;http://blog.jobbole.com/67616/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;伯乐在线的译文&lt;/a&gt;，英文原文在这里：&lt;a href=&quot;https://medium.com/code-poet/80ea3ec3c471&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Machine Learning is Fun!—by Adam Geitgey&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;在听到人们谈论机器学习的时候，你是不是对它的涵义只有几个模糊的认识呢？你是不是已经厌倦了在和同事交谈时只能一直点头？让我们改变一下吧！&lt;/p&gt;
+&lt;p&gt;本指南的读者对象是所有对机器学习有求知欲但却不知道如何开头的朋友。我猜很多人已经读过了“机器学习” ——维基百科词条，倍感挫折，以为没人能给出一个高层次的解释。本文就是你们想要的东西。&lt;/p&gt;
+&lt;p&gt;本文目标在于平易近人，这意味着文中有大量的概括。但是谁在乎这些呢？只要能让读者对于ML更感兴趣，任务也就完成了。&lt;/p&gt;
+&lt;h2 id=&quot;何为机器学习？&quot;&gt;&lt;a href=&quot;#何为机器学习？&quot; class=&quot;headerlink&quot; title=&quot;何为机器学习？&quot;&gt;&lt;/a&gt;何为机器学习？&lt;/h2&gt;&lt;p&gt;机器学习这个概念认为，对于待解问题，你无需编写任何专门的程序代码，遗传算法（generic algorithms）能够在数据集上为你得出有趣的答案。对于遗传算法，不用编码，而是将数据输入，它将在数据之上建立起它自己的逻辑。&lt;/p&gt;
+&lt;p&gt;举个例子，有一类算法称为分类算法，它可以将数据划分为不同的组别。一个用来识别手写数字的分类算法，不用修改一行代码，就可以用来将电子邮件分为垃圾邮件和普通邮件。算法没变，但是输入的训练数据变了，因此它得出了不同的分类逻辑。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;\practice\images\pasted-1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;center&gt;&lt;font face=&quot;微软雅黑&quot; size=&quot;2&quot;&gt;机器学习算法是个黑盒，可以重用来解决很多不同的分类问题。&lt;/font&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;em&gt;机器学习算法是个黑盒，可以重用来解决很多不同的分类问题。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;“机器学习”是一个涵盖性术语，覆盖了大量类似的遗传算法。&lt;/p&gt;
+&lt;h2 id=&quot;两类机器学习算法&quot;&gt;&lt;a href=&quot;#两类机器学习算法&quot; class=&quot;headerlink&quot; title=&quot;两类机器学习算法&quot;&gt;&lt;/a&gt;两类机器学习算法&lt;/h2&gt;&lt;p&gt;你可以认为机器学习算法分为两大类：&lt;strong&gt;监督式学习&lt;/strong&gt;（Supervised Learning）和&lt;strong&gt;非监督式学习&lt;/strong&gt;（Unsupervised Learning）。两者区别很简单，但却非常重要。&lt;/p&gt;
+&lt;h3 id=&quot;监督式学习&quot;&gt;&lt;a href=&quot;#监督式学习&quot; class=&quot;headerlink&quot; title=&quot;监督式学习&quot;&gt;&lt;/a&gt;监督式学习&lt;/h3&gt;&lt;p&gt;假设你是一名房产经纪，生意越做越大，因此你雇了一批实习生来帮你。但是问题来了——你可以看一眼房子就知道它到底值多少钱，实习生没有经验，不知道如何估价。&lt;/p&gt;
+&lt;p&gt;为了帮助你的实习生（也许是为了解放你自己去度个假），你决定写个小软件，可以根据房屋大小、地段以及类似房屋的成交价等因素来评估你所在地区房屋的价值。&lt;/p&gt;
+&lt;p&gt;你把3个月来城里每笔房屋交易都写了下来，每一单你都记录了一长串的细节——卧室数量、房屋大小、地段等等。但最重要的是，你写下了最终的成交价：&lt;/p&gt;
+&lt;p&gt;这是我们的“训练数据”:&lt;br&gt;&lt;img src=&quot;\practice\images\pasted-2.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;我们要利用这些训练数据来编写一个程序来估算该地区其他房屋的价值：&lt;br&gt;&lt;img src=&quot;\practice\images\pasted-3.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;这就称为&lt;strong&gt;监督式学习&lt;/strong&gt;。你已经知道每一栋房屋的售价，换句话说，你知道问题的答案，并可以反向找出解题的逻辑。&lt;/p&gt;
+&lt;p&gt;为了编写软件，你将包含每一套房产的训练数据输入你的机器学习算法。算法尝试找出应该使用何种运算来得出价格数字。&lt;/p&gt;
+&lt;p&gt;这就像是算术练习题，算式中的运算符号都被擦去了：&lt;br&gt;&lt;img src=&quot;\practice\images\pasted-4.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;天哪！一个阴险的学生将老师答案上的算术符号全擦去了。&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;看了这些题，你能明白这些测验里面是什么样的数学问题吗？你知道，你应该对算式左边的数字“做些什么”以得出算式右边的答案。&lt;/p&gt;
+&lt;p&gt;在监督式学习中，你是让计算机为你算出数字间的关系。而一旦你知道了解决这类特定问题所需要的数学方法后，你就可以解答同类的其它问题了。&lt;br&gt;
     
     </summary>
     
